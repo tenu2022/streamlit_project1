@@ -45,6 +45,7 @@ def downloadData():
 # while True:
 #     time.sleep(5)
 #     downloadData()
+#     st.experimental_rerun()
 
 
 print("程式結束點")
