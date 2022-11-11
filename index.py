@@ -35,12 +35,16 @@ with st.sidebar:
 
     ''')
 
-    st.button("按鈕1")
+    btn1 = st.button("按鈕1")
+    if btn1:
+        print("btn1被按了")
 
+def downloadData():
+    print("下載資料")
 
-while True:
-    time.sleep(5)
-    print("過了5秒")
+# while True:
+#     time.sleep(5)
+#     downloadData()
 
 
 print("程式結束點")
