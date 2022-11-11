@@ -20,3 +20,13 @@ st.markdown('''
 ###### H6
 ---
 ''')
+
+st.sidebar.markdown('''
+### 這是sidebar
+---
+
+這是**段落一**
+
+這是*段落二*
+
+''')
