@@ -17,6 +17,10 @@ if db is None:
         app = firebase_admin.initialize_app(cred)
     db = firestore.client()
 
+doc_ref = db.collection('records')
+docs = doc_ref.get()
+for doc in docs:
+    print(doc)
 
 
 st.title("光線和距離即時監測")
